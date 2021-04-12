@@ -18,7 +18,7 @@
 .idioma{margin:auto;width:100px;background-color:rgba(20,50,88,0.5);color:#FFF;padding:10px;text-align:center;float:right}
 .idioma a{color:#ececec;cursor:pointer}
 .idioma a:hover{color:#FFF;border-bottom:1px #FFF dotted;transition:all 1s ease}
-.dark .one-page-arrow,.one-page-arrow.dark{color:#084f7e}
+.dark .one-page-arrow,.one-page-arrow.dark{color:#0c5f97}
 .dark .one-page-arrow:hover,.one-page-arrow.dark:hover{color:#0e76bc}
 .contredes{width:480px!important}
 .puzzle{background-image:url(img/vision-fnd.png);background-repeat:no-repeat;background-position:center top;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
