@@ -15,7 +15,7 @@
 .toppadding-lg{padding-top:70px!important}
 .bottompadding-lg{padding-bottom:70px!important}
 .selector-idioma{width:100%;z-index:9999;position:absolute;top:0}
-.slider-logo{z-index:9999;position:absolute}
+.slider-logo{z-index:9999;position:absolute;display:flex;justify-content:center}
 .slider-logo img{opacity:1}
 .idioma{margin:auto;width:100px;background-color:rgba(20,50,88,0.5);color:#FFF;padding:10px;text-align:center;float:right}
 .idioma a{color:#ececec;cursor:pointer}
@@ -79,6 +79,7 @@ h3.setus{font-size:19px;font-weight:600;line-height:1.3}
 .rowmembers{flex-wrap:wrap}
 }
 @media (max-width: 767px) {
+#header{display:none!important}
 .contredes{width:310px!important}
 #content p.fsize14{display:none!important}
 .itemscont{overflow:hidden;padding:10px;margin-bottom:0!important}
@@ -88,16 +89,27 @@ h3.setus{font-size:19px;font-weight:600;line-height:1.3}
 .separadoritem{margin-bottom:0!important}
 .puzzle{margin-top:0!important}
 .marginipad{margin-top:0!important}
-h1.spantipe{font-size:24px}
+h1.spantipe{font-size:22px}
+.heading-block h2+span{font-size:22px}
 .dark .feature-box p{margin-bottom:30px}
 .torta{max-width:50%!important}
-.col_one_third,.col_one_fourth{margin-bottom:25px!important}
+.col_one_third,.col_one_fourth{margin-bottom:20px!important}
+.slider-logo img{width:55%}
+.team-image{display:flex;justify-content:center}
+.team-image img{width:70%}
+.flip-card h3{font-size:18px}
+.flip-card h4{;font-size:15px;margin-bottom:5px}
+.flip-card-front, .flip-card-back{padding:5px 20px}
+.flip-card{height:90px}
+.heading-block{margin-bottom:35px!important}
 }
 @media (max-width: 479px) {
-#header{display:block!important}
+#header{display:none!important}
 .content-wrap{padding:60px 0 0!important}
 .itemscont .feature-box h3{text-align:center!important;margin-left:0!important;width:100%;padding-top:0;margin-top:10px}
-h1.spantipe{font-size:22px}
+h1.spantipe{font-size:19px}
+.heading-block h2+span{font-size:19px}
+.heading-block h2{font-size:24px}
 .toggle.toggle-border .togglet, .toggle.toggle-border .toggleta{padding:10px 35px 10px!important;line-height:1.5!important}
 .toggle .togglet, .toggle .toggleta{font-size:16px!important}
 .toggle .togglet i{top:0px!important}
@@ -105,4 +117,5 @@ h1.spantipe{font-size:22px}
 .modal-header .close{margin-top:0}
 .modal-body p {height:450px;font-size:15px!important;padding:10px 20px 20px 10px}
 .rowmembers{flex-direction:column;flex-wrap:no-wrap}
+.heading-block{margin-bottom:45px!important}
 }
