@@ -41,10 +41,11 @@ h3.setus{font-size:19px;font-weight:600;line-height:1.3}
 .slider-caption h2{font-size:55px;line-height:1.2}
 .dark .slider-caption h2{color:#0864a0;text-shadow:none}
 .slider-caption p{color:#666666;text-shadow:none}
-a.botonareas{background-color:#0d76bd;color:#FFF;padding:20px;width:100%;display:block;border-radius:3px;font-family:'Lato',sans-serif;line-height:1.3;font-weight:300;font-size:18px;text-align:center;transition: all .2s ease-in-out;height:90px;display:flex;justify-content:center;align-items:center}
+a.botonareas{background-color:#0d76bd;color:#FFF;padding:20px;width:100%;display:block;border-radius:3px;font-family:'Lato',sans-serif;line-height:1.3;font-weight:300;font-size:18px;text-align:center;transition: all .2s ease-in-out;height:90px;display:flex;justify-content:center;align-items:center;cursor:pointer}
 a.botonareas:hover{background-color:#444}
 .team-image a{transition: all .2s ease-in-out}
-.team-image a:hover{opacity:0.7}
+.team-image a:hover{opacity:0.7;cursor:pointer}
+.foot{display:flex;flex-direction:column;align-items:center}
 /*Flipcard*/
 .flip-card{background-color:transparent;width:100%;height:150px;perspective:1000px}
 .flip-card h3{font-family:'Lato',sans-serif;color:#FFF;line-height:1.3;font-weight:300;font-size:20px;margin-bottom:0}
