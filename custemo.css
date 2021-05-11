@@ -79,6 +79,10 @@ a.botonareas:hover{background-color:#444}
 /*Map*/
 .fluid-width-video-wrapper iframe{height:400px!important}
 .fluid-width-video-wrapper{padding-top:400px!important}
+/*Form*/
+#template-contactform .col_one_third{width:32.73%;margin-right:0.9%}
+#template-contactform .col_two_third{width:66.3%;margin-right:0.9%}
+#template-contactform .col_one_third,#template-contactform .col_two_third,#template-contactform .col_full{margin-bottom:10px}
 }
 @media (max-width: 1100px) {
 #primary-menu ul li>a{padding:39px 10px;font-size:12px}
