@@ -81,6 +81,7 @@ a{cursor:pointer}
 .cv div.datos{display:flex;flex-direction:column;align-items:center}
 /*Members*/
 .rowmembers{display:flex}
+.team-title{padding-top:12px}
 /*Map*/
 .fluid-width-video-wrapper iframe{height:400px!important}
 .fluid-width-video-wrapper{padding-top:400px!important}
