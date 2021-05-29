@@ -69,7 +69,8 @@ a{cursor:pointer}
 /*Modal*/
 .modal-body{display:flex}
 .modal-body p{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px}
-.modal-body p.curriculum{background-color:#fbfbfb;border:1px solid #ececec;border-radius:5px;font-size:16px!important}
+.modal-body div.curriculum{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px;background-color:#fbfbfb;border:1px solid #ececec;border-radius:5px;font-size:16px!important;font-weight: 300!important}
+div.curriculum ul{padding-left:20px}
 .modal-title{font-family:'Cinzel',sans-serif;text-align:center;font-weight:300;font-size:22px;color:#FFF}
 .modal-header{background-color:#0d76bd}
 .modal-header .close{margin-top:4px}
@@ -129,7 +130,7 @@ a.botonareas {padding:10px 20px;height:60px}
 /*Modal*/
 .cv img.fotocv{max-width:120px}
 .modal-body {flex-direction:column-reverse}
-.modal-body p.curriculum{text-align:center;height:280px;font-size:14px!important}
+.modal-body div.curriculum{text-align:center;height:280px;font-size:14px!important}
 .cv strong.subtitulo{font-size:16px}
 }
 @media (max-width: 479px) {
