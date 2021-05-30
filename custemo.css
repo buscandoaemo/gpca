@@ -168,3 +168,4 @@ a.doslineas{height:55px!important}
 .team-title h4{font-size:10px!important;margin:0}
 .team-title span {font-size:10px!important;line-height:1.3}
 .teambottom{margin-bottom:10px!important}
+.flexmobileteam{display:flex;flex-wrap:wrap}
