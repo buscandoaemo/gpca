@@ -70,7 +70,9 @@ a{cursor:pointer}
 .modal-body{display:flex}
 .modal-body p{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px}
 .modal-body div.curriculum{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px;background-color:#fbfbfb;border:1px solid #ececec;border-radius:5px;font-size:16px!important;font-weight: 300!important}
-div.curriculum ul{padding-left:20px}
+div.curriculum ul{padding-left:20px; text-align:left}
+.modal-body div.descarea{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 20px 30px;background-color:#ffffff;border:1px solid #ececec;border-radius:5px;font-size:17px!important;font-weight: 300!important}
+div.descarea ul{padding-left:20px; text-align:left}
 .modal-title{font-family:'Cinzel',sans-serif;text-align:center;font-weight:300;font-size:22px;color:#FFF}
 .modal-header{background-color:#0d76bd}
 .modal-header .close{margin-top:4px}
@@ -130,8 +132,10 @@ a.botonareas {padding:10px 20px;height:60px}
 /*Modal*/
 .cv img.fotocv{max-width:120px}
 .modal-body {flex-direction:column-reverse}
-.modal-body div.curriculum{text-align:center;height:280px;font-size:14px!important}
+.modal-body div.curriculum{text-align:center;height:250px;font-size:14px!important}
+.modal-body div.descarea{text-align:center;height:470px;font-size:15px!important}
 .cv strong.subtitulo{font-size:16px}
+.cv .modal-title span{font-size:16px}
 }
 @media (max-width: 479px) {
 #header{display:none!important}
@@ -149,4 +153,5 @@ h1.spantipe{font-size:19px}
 .rowmembers{flex-direction:column;flex-wrap:no-wrap}
 .heading-block{margin-bottom:45px!important}
 a.botonareas {height:45px;font-size:16px}
+a.doslineas {height:55px!important}
 }
