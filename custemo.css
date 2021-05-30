@@ -132,7 +132,7 @@ a.botonareas {padding:10px 20px;height:60px}
 .idioma{font-size:12px}
 p.intro{font-size:18px!important}
 /*Modal*/
-.cv img.fotocv{max-width:100px}
+.cv img.fotocv{max-width:80px}
 .modal-body {flex-direction:column-reverse}
 .modal-body div.curriculum{text-align:center;height:270px;font-size:14px!important}
 .modal-body div.descarea{text-align:center;height:470px;font-size:15px!important}
