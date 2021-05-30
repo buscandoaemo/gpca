@@ -70,7 +70,7 @@ p.intro span#more{font-size:17px;font-weight:300!important;line-height:1.8!impor
 .flip-card .area-f{background-image:url(images/areas/d-azar.jpg)}
 .flip-card .area-g{background-image:url(images/areas/d-arbitraje.jpg)}
 /*Modal*/
-.modal-body{display:flex}
+.modal-body{display:flex;justify-content:center}
 .modal-body p{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px}
 .modal-body div.curriculum{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px;background-color:#fbfbfb;border:1px solid #ececec;border-radius:5px;font-size:16px!important;font-weight: 300!important}
 div.curriculum:empty{display:none!important}
