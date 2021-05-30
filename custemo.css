@@ -122,8 +122,6 @@ h1.spantipe{font-size:22px}
 .torta{max-width:50%!important}
 .col_one_third,.col_one_fourth{margin-bottom:10px!important}
 .slider-logo img{width:45%}
-.team-image{display:flex;justify-content:center}
-.team-image img{width:75%; margin:auto}
 .flip-card h3{font-size:18px}
 .flip-card h4{;font-size:15px;margin-bottom:5px}
 .flip-card-front, .flip-card-back{padding:5px 20px}
@@ -134,13 +132,18 @@ a.botonareas {padding:10px 20px;height:60px}
 .idioma{font-size:12px}
 p.intro{font-size:18px!important}
 /*Modal*/
-.cv img.fotocv{max-width:120px}
+.cv img.fotocv{max-width:100px}
 .modal-body {flex-direction:column-reverse}
-.modal-body div.curriculum{text-align:center;height:250px;font-size:14px!important}
+.modal-body div.curriculum{text-align:center;height:270px;font-size:14px!important}
 .modal-body div.descarea{text-align:center;height:470px;font-size:15px!important}
 .cv strong.subtitulo{font-size:16px}
 .cv .modal-title span{font-size:16px}
-}
+/*Team*/
+.team-image{display:flex;justify-content:center}
+.team-image img{width:100%; margin:auto}
+.team-title h4{font-size:16px!important}
+.team-title span {font-size:14px}
+.teambottom{margin-bottom:20px!important}
 @media (max-width: 479px) {
 #header{display:none!important}
 .content-wrap{padding:60px 0 0!important}
@@ -160,4 +163,7 @@ a.botonareas{height:45px;font-size:16px}
 a.doslineas{height:55px!important}
 .fullcel{width:100%!important;text-align:center}
 .fullcelmargintop{margin-top:10px!important}
-}
+/*Team*/
+.team-title h4{font-size:11px!important;margin:0}
+.team-title span {font-size:13px}
+.teambottom{margin-bottom:10px!important}
