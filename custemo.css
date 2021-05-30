@@ -122,7 +122,7 @@ h1.spantipe{font-size:22px}
 .dark .feature-box p{margin-bottom:30px}
 .torta{max-width:50%!important}
 .col_one_third,.col_one_fourth{margin-bottom:10px!important}
-.slider-logo img{width:45%}
+.slider-logo img{width:45%;height:auto}
 .flip-card h3{font-size:18px}
 .flip-card h4{;font-size:15px;margin-bottom:5px}
 .flip-card-front, .flip-card-back{padding:5px 20px}
