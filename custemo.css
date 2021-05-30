@@ -73,6 +73,7 @@ p.intro span#more{font-size:17px;font-weight:300!important;line-height:1.8!impor
 .modal-body{display:flex}
 .modal-body p{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px}
 .modal-body div.curriculum{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 30px 30px;background-color:#fbfbfb;border:1px solid #ececec;border-radius:5px;font-size:16px!important;font-weight: 300!important}
+div.curriculum:empty{display:none!important}
 div.curriculum ul{padding-left:20px; text-align:left}
 .modal-body div.descarea{line-height:1.5!important;max-height:520px;overflow:auto;margin:0;padding:20px 20px 30px;background-color:#ffffff;border:1px solid #ececec;border-radius:5px;font-size:17px!important;font-weight: 300!important}
 div.descarea ul{padding-left:20px; text-align:left}
@@ -164,6 +165,6 @@ a.doslineas{height:55px!important}
 .fullcel{width:100%!important;text-align:center}
 .fullcelmargintop{margin-top:10px!important}
 /*Team*/
-.team-title h4{font-size:11px!important;margin:0}
-.team-title span {font-size:13px}
+.team-title h4{font-size:10px!important;margin:0}
+.team-title span {font-size:10px!important;line-height:1.3}
 .teambottom{margin-bottom:10px!important}
